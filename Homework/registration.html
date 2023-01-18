@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 10</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="Icon" href="img/by.svg" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container flex_container_nav">
+          <div class="logo">
+            <img src="./img/logossss.png" alt="" />
+          </div>
+          <div class="nav_list">
+            <ul>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="btn-select">
+            <button class="btn-1"><a href="./login.html">Log in</a></button>
+            <button class="btn-2">
+              <a href="./index.html">Open an account</a>
+            </button>
+            <select name="EN" id="EN">
+              <option value="0">EN</option>
+              <option value="1">UZ</option>
+              <option value="2">RU</option>
+              <option value="3">KZ</option>
+              <option value="4">USA</option>
+              <option value="5">KG</option>
+            </select>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="welcome">
+      <div class="content">
+        <div class="logo_sec">
+          <img src="./img/logossss.png" alt="logo" />
+          <h2>Welcome to ByTrend!</h2>
+          <p>Already have an account?<a href="">Log in</a></p>
+        </div>
+        <br />
+        <div class="forms">
+          <form action="./login.html">
+            <div class="email">
+              <label for="email"><b>Email*</b></label
+              ><br />
+              <input
+                required
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email address"
+              />
+            </div>
+            <br />
+
+            <div class="phone">
+              <label for="phone"><b>Phone*</b></label
+              ><br />
+              <input
+                required
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="965-748-89-90"
+              />
+            </div>
+            <br />
+
+            <div class="country">
+              <div class="country_left">
+                <label for="country"
+                  ><h4><b>Country*</b></h4></label
+                >
+                <select required name="country" id="country">
+                  <option value="0">Russia</option>
+                  <option value="1">Uzbekistan</option>
+                  <option value="2">USA</option>
+                  <option value="3">United Kingdom</option>
+                  <option value="4">Turkish</option>
+                  <option value="5">China</option>
+                </select>
+              </div>
+              <div class="city_right">
+                <label for="city"><b>City*</b></label
+                ><br />
+                <input
+                  required
+                  type="text"
+                  name="city"
+                  id="city"
+                  placeholder="Name of the city"
+                />
+              </div>
+            </div>
+            <br />
+            <div class="password">
+              <label for="password"><b>Password*</b></label
+              ><br />
+              <input
+                required
+                type="password"
+                name="password"
+                id="password"
+                placeholder="***********"
+              />
+            </div>
+            <br />
+            <div class="password_2">
+              <label for="password_2"><b>Confirm password*</b></label
+              ><br />
+              <input
+                required
+                type="password_2"
+                name="password_2"
+                id="password_2"
+                placeholder="***********"
+              />
+            </div>
+            <br />
+            <div class="btn_2">
+              <a href="./login.html" target="_blank"
+                ><button type="submit" class="cont">
+                  Continue <img src="./img/Icon.png" alt="" /></button
+              ></a>
+            </div>
+            <p class="paragraph_2">
+              By signing up, you are agreeing to our
+              <span class="style_paragraph">Terms & Conditions</span><br />
+              and
+              <span class="style_paragraph">Privacy Policy.</span>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <p class="paragraph">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+  </body>
+</html>

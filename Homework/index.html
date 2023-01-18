@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 10</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="Icon" href="img/by.svg" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="container flex_container_nav">
+          <div class="logo">
+            <img src="./img/logossss.png" alt="" />
+          </div>
+          <div class="nav_list">
+            <ul>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contacts</a></li>
+            </ul>
+          </div>
+          <div class="btn-select">
+            <button class="btn-1">
+              <a href="./login.html" target="_blank">Log in</a>
+            </button>
+            <button class="btn-2"><a href="#">Open an account</a></button>
+            <select name="EN" id="EN">
+              <option value="0">EN</option>
+              <option value="1">UZ</option>
+              <option value="2">RU</option>
+              <option value="3">KZ</option>
+              <option value="4">USA</option>
+              <option value="5">KG</option>
+            </select>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="welcome">
+      <div class="content">
+        <div class="logo_sec">
+          <img src="./img/logossss.png" alt="logo" />
+          <h2>Welcome to ByTrend!</h2>
+          <p>Already have an account?<a href="">Log in</a></p>
+        </div>
+        <div class="forms">
+          <form action="./registration.html">
+            <div class="name_left_right">
+              <div class="left">
+                <label for="first name"><b>First name*</b></label>
+                <input
+                  required
+                  type="text"
+                  name="first name"
+                  id="first name"
+                  placeholder="Alexander"
+                />
+              </div>
+              <div class="right">
+                <label for="last name"><b>Last name*</b></label>
+                <input
+                  required
+                  type="text"
+                  name="last name"
+                  id="last name"
+                  placeholder="Your surname"
+                />
+              </div>
+            </div>
+
+            <div class="date">
+              <label for="date"><b>Birth date*</b></label
+              ><br />
+              <input required type="date" name="date" id="date" />
+            </div>
+            <br />
+
+            <div class="genders">
+              <label for="gender" class="exp_heading"
+                ><b>Gender*</b>
+                <div class="gender_left">
+                  <input required type="radio" name="gender" id="Female" />
+                  <label for="female" class="female">Female</label>
+                </div>
+                <div class="gender_right">
+                  <input required type="radio" name="gender" id="Male" />
+                  <label for="male" class="male">Male</label>
+                </div>
+              </label>
+            </div>
+            <br />
+            <div class="skype">
+              <label for="skype"><b>Skype</b></label>
+              <input
+                type="text"
+                name="skype"
+                id="skype"
+                placeholder="Your login Skype"
+              />
+            </div>
+            <br />
+            <div class="promo">
+              <label for="promo"><b>Promo</b></label>
+              <input
+                required
+                type="text"
+                name="promo"
+                id="promo"
+                placeholder="Your promo"
+              />
+            </div>
+            <br />
+            <div class="btn">
+              <a href="./registration.html" target="_blank"
+                ><button type="submit" class="cont">
+                  Continue <img src="./img/Icon.png" alt="" /></button
+              ></a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <p class="paragraph">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+  </body>
+</html>

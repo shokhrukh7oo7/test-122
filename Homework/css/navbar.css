@@ -1,0 +1,155 @@
+header {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.09);
+}
+
+.flex_container_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.logo h2 {
+  width: 57px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.nav_list ul {
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.nav_list ul a {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  padding: 0 25px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.btn-select button a {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.btn-select .btn-1 {
+  border: 1px solid #d9d9d9;
+  margin-right: 12px;
+  width: 58px;
+  height: 28px;
+  background: transparent;
+}
+
+.btn-select .btn-1:hover {
+  border: 1px solid #15f4ee;
+}
+
+.btn-select .btn-2 {
+  border: 1px solid #d9d9d9;
+  margin-right: 24px;
+  margin-left: 12px;
+  width: 122px;
+  height: 28px;
+  background: transparent;
+}
+
+.btn-select .btn-2:hover {
+  border: 1px solid #15f4ee;
+}
+
+.btn-select select {
+  margin: 16px 100px 16px 0;
+  border: 1px solid #d9d9d9;
+  width: 55px;
+  height: 28px;
+  background: transparent;
+  border: 1px solid #d9d9d9;
+}
+
+.btn-select select:hover {
+  border: 1px solid #15f4ee;
+}
+/**/
+.flex_container {
+  background: #f4f8fa;
+  width: 100%;
+}
+
+.form_container {
+  background: #ffffff;
+}
+
+.retro {
+  margin: 24px auto 100px;
+  background-color: #f4f8fa;
+  width: 496px;
+  border-radius: 10px;
+  height: 600px;
+  /* display: flex;
+  justify-content: center;
+  flex-wrap: wrap; */
+}
+
+.logo_img {
+  padding-top: 40px;
+  margin: 40px 0 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h1 {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.intro p {
+  padding-left: 130px;
+  display: inline;
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444150;
+}
+
+.intro a {
+  padding-left: 14px;
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #01bab3;
+}
+
+.nickname {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 8px 24px 44px;
+}
+
+input {
+  width: 200px;
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
